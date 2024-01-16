@@ -42,12 +42,12 @@ def EnterButtonPress():
 #concatenated url and users input
 	urlpluscity = newapitest + storecity
 #url gathered data conversion to json format 
-	json_data = requests.get(urlpluscity).json()
+	json_data = requests.get(urlpluscity, timeout=60).json(timeout=60)
 #debugging data prints
 	print(urlpluscity)
 	print(json_data)
 #redundancy request 
-	response = requests.get(urlpluscity)
+	response = requests.get(urlpluscity, timeout=60)
 #converted to json
 	data= response.json()
 #accessing specific portions of retrieved json data
@@ -129,12 +129,12 @@ def EnterButtonPress2():
 	urlpluscity1 = newapitest + storedcity2
 	print(urlpluscity1)
 #url gathered data conversion to json format 
-	json_data1 = requests.get(urlpluscity1).json()
+	json_data1 = requests.get(urlpluscity1, timeout=60).json(timeout=60)
 #debugging data prints
 	print(urlpluscity1)
 	print(json_data1)
 #redundancy request 
-	response1 = requests.get(urlpluscity1)
+	response1 = requests.get(urlpluscity1, timeout=60)
 #converted to json
 	data1 = response1.json()
 #accessing specific portions of retrieved json data
