@@ -1,10 +1,7 @@
-- 👋 Hi, I’m @Rinzler86
-- 👀 I’m interested in Python coding and APIs
-- 🌱 I’m currently learning Everything Python
-- 💞️ I’m looking to collaborate on smalll projects
-- 📫 How to reach me is via email
+-👋 Hi, I’m @Rinzler86
 
-<!---
-Rinzler86/Rinzler86 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+👀 I’m deeply engaged in exploring the vast landscape of technology, with a keen focus on programming languages such as Python, PHP, C#, and the intricacies of web development including HTML, CSS, JavaScript, jQuery, and AJAX. My interests also span across backend and frontend development, embodying the essence of full stack development.
+🌱 My current learning journey encompasses a broad spectrum of technologies and frameworks, including but not limited to Flask for Python web development, database management with MySQL and SQLite, web automation and scraping using Selenium WebDriver, and version control with Git. I’m also diving into SQL to enhance my data manipulation capabilities.
+💞️ I’m eager to collaborate on projects that allow me to apply my diverse set of skills in Python coding, API integration, full stack development, and more. I’m particularly interested in projects that challenge me to utilize my knowledge in web scraping, database management, and web application development.
+📫 The best way to reach me is via email, where I look forward to connecting with like-minded individuals and communities passionate about technology and coding.
+I am continuously expanding my skill set to include new technologies and methodologies that fall within the domains of web development, software engineering, and data processing. Whether it's mastering advanced aspects of existing technologies or embracing entirely new tools, my goal is to stay at the forefront of technology and innovation.
