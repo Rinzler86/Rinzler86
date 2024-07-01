@@ -2,7 +2,7 @@
 
 import tkinter as tk
 from tkinter import *
-import requests, json
+from security import safe_requests
 
 #Create window for weather application
 root = tk.Tk()
@@ -42,12 +42,12 @@ def EnterButtonPress():
 #concatenated url and users input
 	urlpluscity = newapitest + storecity
 #url gathered data conversion to json format 
-	json_data = requests.get(urlpluscity).json()
+	json_data = safe_requests.get(urlpluscity).json()
 #debugging data prints
 	print(urlpluscity)
 	print(json_data)
 #redundancy request 
-	response = requests.get(urlpluscity)
+	response = safe_requests.get(urlpluscity)
 #converted to json
 	data= response.json()
 #accessing specific portions of retrieved json data
@@ -129,12 +129,12 @@ def EnterButtonPress2():
 	urlpluscity1 = newapitest + storedcity2
 	print(urlpluscity1)
 #url gathered data conversion to json format 
-	json_data1 = requests.get(urlpluscity1).json()
+	json_data1 = safe_requests.get(urlpluscity1).json()
 #debugging data prints
 	print(urlpluscity1)
 	print(json_data1)
 #redundancy request 
-	response1 = requests.get(urlpluscity1)
+	response1 = safe_requests.get(urlpluscity1)
 #converted to json
 	data1 = response1.json()
 #accessing specific portions of retrieved json data
